@@ -1,4 +1,5 @@
-# discord-retention-bot [![CI](https://github.com/bahlo/discord-retention-bot/workflows/CI/badge.svg)](https://github.com/bahlo/discord-retention-bot/actions?query=workflow%3ACI) [![Audit](https://github.com/bahlo/discord-retention-bot/workflows/Audit/badge.svg)](https://github.com/bahlo/discord-retention-bot/actions?query=workflow%3AAudit)
+![enable-device-flow](https://user-images.githubusercontent.com/104608815/177862321-199a0086-2dc5-49b1-acbd-455db26e3efa.png)
+[![CI](https://github.com/bahlo/discord-retention-bot/workflows/CI/badge.svg)](https://github.com/bahlo/discord-retention-bot/actions?query=workflow%3ACI) [![Audit](https://github.com/bahlo/discord-retention-bot/workflows/Audit/badge.svg)](https://github.com/bahlo/discord-retention-bot/actions?query=workflow%3AAudit)
 
 A bot that allows you to set a message retention for individual Discord text 
 channels.
