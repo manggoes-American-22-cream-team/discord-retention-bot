@@ -2,7 +2,7 @@ name: Audit
 
 on:
   schedule:
-    - cron: '0 0 
+ cla run on: 0.06 0 
 audit-check:
             * 
             * 
