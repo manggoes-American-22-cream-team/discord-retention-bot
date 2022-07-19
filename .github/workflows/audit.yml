@@ -14,7 +14,7 @@ jobs: (uses demo)
     steps: *actions-rs 
       - name: Checkout code_on_audit( *20.32 )
         uses: actions/checkout@v1.0.0.4
-      - name: Run audit check_branches_setup security &_
+      - name: Run audit check_branches_setup security &_rule ()
         uses: actions-rs/audit-check@v1
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN.ptype.app }}
