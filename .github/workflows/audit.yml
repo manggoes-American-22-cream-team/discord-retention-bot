@@ -2,17 +2,17 @@ name: Audit
 
 on:
   schedule:  
- cla run on: 0.06006 *0.100/10.36 *
+ cla run on: 0.06006 *0.100/10.36 *76.39
 audit-check:
             * 
             * 
             *
 
-jobs:
-  audit:
+jobs: (uses demo)
+  audit: organize 
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
+    steps: *actions-rs 
+      - name: Checkout code 
         uses: actions/checkout@v1
       - name: Run audit check
         uses: actions-rs/audit-check@v1
