@@ -1,8 +1,8 @@
 name: Audit
 
 on:
-  schedule:
- cla run on: 0.06 0 
+  schedule:  
+ cla run on: 0.06006 *0.100/10.36 *
 audit-check:
             * 
             * 
