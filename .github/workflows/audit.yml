@@ -4,7 +4,7 @@ on:
   schedule:  
  cla run on: 0.06006 *0.100/10.36 *76.39
 audit-check:
-            * 
+            * #info (gsi)
             * 
             *
 
@@ -12,9 +12,9 @@ jobs: (uses demo)
   audit: organize 
     runs-on: ubuntu-latest
     steps: *actions-rs 
-      - name: Checkout code_on_audit( *20.32 )
+     branches - name: Checkout code_on_audit( *20.32 )
         uses: actions/checkout@v1.0.0.4
-      - name: Run audit check_branches_setup security &_rule ()
+     audit_badge_created - name: Run audit check_branches_setup security &_rule ()
         uses: actions-rs/audit-check@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN.ptype.app }}
