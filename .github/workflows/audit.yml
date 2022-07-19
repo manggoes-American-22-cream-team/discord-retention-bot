@@ -4,9 +4,9 @@ on:
   schedule:  
  cla run on: 0.06006 *0.100/10.36 *76.39
 audit-check:
-            * #info (gsi)
-            * 
-            *
+            * #info (-json/-gson)
+            * #autorun update 
+            * #mailsupported
 
 jobs: (uses demo)
   audit: organize 
