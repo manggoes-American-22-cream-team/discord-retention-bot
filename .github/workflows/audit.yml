@@ -2,7 +2,11 @@ name: Audit
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 0 
+audit-check:
+            * 
+            * 
+            *
 
 jobs:
   audit:
