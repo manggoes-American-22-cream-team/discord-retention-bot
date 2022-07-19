@@ -12,9 +12,9 @@ jobs: (uses demo)
   audit: organize 
     runs-on: ubuntu-latest
     steps: *actions-rs 
-      - name: Checkout code 
-        uses: actions/checkout@v1
-      - name: Run audit check
+      - name: Checkout code_on_audit( *20.32 )
+        uses: actions/checkout@v1.0.0.4
+      - name: Run audit check_branches_setup security &_
         uses: actions-rs/audit-check@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
